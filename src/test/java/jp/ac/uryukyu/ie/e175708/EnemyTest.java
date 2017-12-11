@@ -1,10 +1,10 @@
 package jp.ac.uryukyu.ie.e175708;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class EnemyTest {
+class EnemyTest {
     @Test
     void attack() {
         int heroHP = 10;
@@ -16,5 +16,4 @@ public class EnemyTest {
         }
         assertEquals(heroHP, hero.getHitPoint());
     }
-
 }
